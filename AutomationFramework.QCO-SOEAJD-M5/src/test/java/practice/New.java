@@ -37,7 +37,7 @@ public class New extends BaseClass {
 		List<WebElement> option = s.getAllSelectedOptions();
 		System.out.println(option);
 		
-		
+		//System.out.pr
 		
 		WebElement dropdown1=driver.findElement(By.name("accounttype"));
 		Select s1=new Select(dropdown1);
