@@ -41,8 +41,8 @@ public class New extends BaseClass {
 		
 		WebElement dropdown1=driver.findElement(By.name("accounttype"));
 		Select s1=new Select(dropdown1);
-		s1.selectByVisibleText("Customer");
-		
+		s1.selectByVisibleText("java");
+		System.out.println();
 		
 		driver.findElement(By.name("emailoptout")).click();
 		driver.findElement(By.name("assigntype")).click();
